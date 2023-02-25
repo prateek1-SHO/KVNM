@@ -31,3 +31,17 @@ C:\Prateek Work\RajaProject\KVNM\KVNM\obj\Debug\net7.0\refint\KVNM.dll
 C:\Prateek Work\RajaProject\KVNM\KVNM\obj\Debug\net7.0\KVNM.pdb
 C:\Prateek Work\RajaProject\KVNM\KVNM\obj\Debug\net7.0\KVNM.genruntimeconfig.cache
 C:\Prateek Work\RajaProject\KVNM\KVNM\obj\Debug\net7.0\ref\KVNM.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Serilog.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Prateek Work\RajaProject\KVNM\KVNM\bin\Debug\net7.0\Serilog.Sinks.File.dll

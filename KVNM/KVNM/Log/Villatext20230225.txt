@@ -1,0 +1,199 @@
+2023-02-25 14:32:54.664 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-25 14:32:54.873 +05:30 [DBG] Hosting starting
+2023-02-25 14:32:55.100 +05:30 [DBG] Loaded hosting startup assembly KVNM
+2023-02-25 14:32:55.100 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-25 14:32:55.100 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-25 14:32:55.115 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-25 14:32:55.116 +05:30 [INF] Hosting environment: Development
+2023-02-25 14:32:55.116 +05:30 [INF] Content root path: C:\Prateek Work\RajaProject\KVNM\KVNM
+2023-02-25 14:32:55.116 +05:30 [DBG] Hosting started
+2023-02-25 14:32:55.220 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - -
+2023-02-25 14:32:55.290 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-25 14:32:55.359 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-25 14:32:55.360 +05:30 [DBG] Request did not match any endpoints
+2023-02-25 14:32:55.898 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-25 14:32:55.971 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-25 14:32:55.987 +05:30 [DBG] Connection ID "18230571310386249794" disconnecting.
+2023-02-25 14:32:55.988 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - - - 200 - text/html;charset=utf-8 771.8930ms
+2023-02-25 14:32:56.038 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - -
+2023-02-25 14:32:56.049 +05:30 [DBG] Connection ID "18302628895834243143" disconnecting.
+2023-02-25 14:32:56.050 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - - - 200 11978 application/javascript;+charset=utf-8 5.4793ms
+2023-02-25 14:32:56.066 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - -
+2023-02-25 14:32:56.169 +05:30 [DBG] Connection ID "18086456130900328542" disconnecting.
+2023-02-25 14:32:56.177 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 110.4966ms
+2023-02-25 14:32:56.380 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - -
+2023-02-25 14:32:56.381 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-25 14:32:56.381 +05:30 [DBG] Request did not match any endpoints
+2023-02-25 14:32:56.668 +05:30 [DBG] Connection ID "18302628908719145079" disconnecting.
+2023-02-25 14:32:56.668 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 288.2483ms
+2023-02-25 14:33:28.835 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:44359/api/VillaAPI?id=2 application/json-patch+json 113
+2023-02-25 14:33:28.845 +05:30 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-02-25 14:33:28.850 +05:30 [DBG] Endpoint 'KVNM.Controllers.VillaAPIController.Update (KVNM)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-02-25 14:33:28.851 +05:30 [DBG] Request matched endpoint 'KVNM.Controllers.VillaAPIController.Update (KVNM)'
+2023-02-25 14:33:28.855 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-25 14:33:28.861 +05:30 [INF] Executing endpoint 'KVNM.Controllers.VillaAPIController.Update (KVNM)'
+2023-02-25 14:33:28.955 +05:30 [INF] Route matched with {action = "Update", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[KVNM.Models.VillaDto.VillaDto] Update(Int32, KVNM.Models.VillaDto.VillaDto) on controller KVNM.Controllers.VillaAPIController (KVNM).
+2023-02-25 14:33:28.961 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-25 14:33:28.962 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-25 14:33:28.962 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-25 14:33:28.963 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-25 14:33:28.963 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-25 14:33:28.967 +05:30 [DBG] Executing controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-02-25 14:33:28.969 +05:30 [DBG] Executed controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-02-25 14:33:28.994 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-02-25 14:33:29.001 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-02-25 14:33:29.004 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-02-25 14:33:29.004 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-02-25 14:33:29.004 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-02-25 14:33:29.011 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-02-25 14:33:29.014 +05:30 [DBG] Attempting to bind parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto' ...
+2023-02-25 14:33:29.016 +05:30 [DBG] Attempting to bind parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto' using the name '' in request data ...
+2023-02-25 14:33:29.019 +05:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-02-25 14:33:29.019 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-02-25 14:33:29.240 +05:30 [DBG] Done attempting to bind parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto'.
+2023-02-25 14:33:29.240 +05:30 [DBG] Done attempting to bind parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto'.
+2023-02-25 14:33:29.240 +05:30 [DBG] Attempting to validate the bound parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto' ...
+2023-02-25 14:33:29.252 +05:30 [DBG] Done attempting to validate the bound parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto'.
+2023-02-25 14:33:48.360 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-02-25 14:33:48.362 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-02-25 14:33:48.363 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-02-25 14:33:48.364 +05:30 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2023-02-25 14:33:48.366 +05:30 [INF] Executed action KVNM.Controllers.VillaAPIController.Update (KVNM) in 19401.2261ms
+2023-02-25 14:33:48.366 +05:30 [INF] Executed endpoint 'KVNM.Controllers.VillaAPIController.Update (KVNM)'
+2023-02-25 14:33:48.369 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:44359/api/VillaAPI?id=2 application/json-patch+json 113 - 406 - - 19537.9926ms
+2023-02-25 14:33:48.369 +05:30 [DBG] Connection ID "18302628895834243147" disconnecting.
+2023-02-25 14:34:23.670 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:44359/api/VillaAPI?id=2 application/json-patch+json 113
+2023-02-25 14:34:23.674 +05:30 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-02-25 14:34:23.674 +05:30 [DBG] Endpoint 'KVNM.Controllers.VillaAPIController.Update (KVNM)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-02-25 14:34:23.674 +05:30 [DBG] Request matched endpoint 'KVNM.Controllers.VillaAPIController.Update (KVNM)'
+2023-02-25 14:34:23.674 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-25 14:34:23.674 +05:30 [INF] Executing endpoint 'KVNM.Controllers.VillaAPIController.Update (KVNM)'
+2023-02-25 14:34:23.674 +05:30 [INF] Route matched with {action = "Update", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[KVNM.Models.VillaDto.VillaDto] Update(Int32, KVNM.Models.VillaDto.VillaDto) on controller KVNM.Controllers.VillaAPIController (KVNM).
+2023-02-25 14:34:23.674 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-25 14:34:23.675 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-25 14:34:23.675 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-25 14:34:23.675 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-25 14:34:23.675 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-25 14:34:23.675 +05:30 [DBG] Executing controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-02-25 14:34:23.675 +05:30 [DBG] Executed controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-02-25 14:34:23.675 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-02-25 14:34:23.676 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-02-25 14:34:23.676 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-02-25 14:34:23.676 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-02-25 14:34:23.676 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-02-25 14:34:23.676 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-02-25 14:34:23.676 +05:30 [DBG] Attempting to bind parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto' ...
+2023-02-25 14:34:23.676 +05:30 [DBG] Attempting to bind parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto' using the name '' in request data ...
+2023-02-25 14:34:23.676 +05:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-02-25 14:34:23.676 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-02-25 14:34:23.677 +05:30 [DBG] Done attempting to bind parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto'.
+2023-02-25 14:34:23.677 +05:30 [DBG] Done attempting to bind parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto'.
+2023-02-25 14:34:23.677 +05:30 [DBG] Attempting to validate the bound parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto' ...
+2023-02-25 14:34:23.677 +05:30 [DBG] Done attempting to validate the bound parameter 'villaDto' of type 'KVNM.Models.VillaDto.VillaDto'.
+2023-02-25 14:34:27.984 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-02-25 14:34:27.985 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-02-25 14:34:27.985 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-25 14:34:27.985 +05:30 [INF] Executing OkObjectResult, writing value of type 'KVNM.Models.VillaDto.VillaDto'.
+2023-02-25 14:34:29.612 +05:30 [INF] Executed action KVNM.Controllers.VillaAPIController.Update (KVNM) in 5937.351ms
+2023-02-25 14:34:29.612 +05:30 [INF] Executed endpoint 'KVNM.Controllers.VillaAPIController.Update (KVNM)'
+2023-02-25 14:34:29.613 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:44359/api/VillaAPI?id=2 application/json-patch+json 113 - 200 92 application/json;+charset=utf-8 5944.2513ms
+2023-02-25 14:40:47.833 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-25 14:40:47.994 +05:30 [DBG] Hosting starting
+2023-02-25 14:40:48.284 +05:30 [DBG] Loaded hosting startup assembly KVNM
+2023-02-25 14:40:48.284 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-25 14:40:48.284 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-25 14:40:48.285 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-25 14:40:48.286 +05:30 [INF] Hosting environment: Development
+2023-02-25 14:40:48.286 +05:30 [INF] Content root path: C:\Prateek Work\RajaProject\KVNM\KVNM
+2023-02-25 14:40:48.286 +05:30 [DBG] Hosting started
+2023-02-25 14:40:48.486 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - -
+2023-02-25 14:40:48.640 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-25 14:40:48.791 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-25 14:40:48.792 +05:30 [DBG] Request did not match any endpoints
+2023-02-25 14:40:49.392 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-25 14:40:49.532 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-25 14:40:49.569 +05:30 [DBG] Connection ID "18302628904424177816" disconnecting.
+2023-02-25 14:40:49.619 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - -
+2023-02-25 14:40:49.619 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - - - 200 - text/html;charset=utf-8 1091.5962ms
+2023-02-25 14:40:49.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - -
+2023-02-25 14:40:49.642 +05:30 [DBG] Connection ID "18230571323271151687" disconnecting.
+2023-02-25 14:40:49.643 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - - - 200 11978 application/javascript;+charset=utf-8 9.0772ms
+2023-02-25 14:40:49.747 +05:30 [DBG] Connection ID "18302628895834243149" disconnecting.
+2023-02-25 14:40:49.755 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 136.6639ms
+2023-02-25 14:40:49.830 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - -
+2023-02-25 14:40:49.831 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-25 14:40:49.831 +05:30 [DBG] Request did not match any endpoints
+2023-02-25 14:40:50.125 +05:30 [DBG] Connection ID "18086456130900328545" disconnecting.
+2023-02-25 14:40:50.125 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.6576ms
+2023-02-25 14:42:22.102 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-25 14:42:22.766 +05:30 [DBG] Hosting starting
+2023-02-25 14:42:23.075 +05:30 [DBG] Loaded hosting startup assembly KVNM
+2023-02-25 14:42:23.076 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-25 14:42:23.076 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-25 14:42:23.092 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-25 14:42:23.093 +05:30 [INF] Hosting environment: Development
+2023-02-25 14:42:23.093 +05:30 [INF] Content root path: C:\Prateek Work\RajaProject\KVNM\KVNM
+2023-02-25 14:42:23.093 +05:30 [DBG] Hosting started
+2023-02-25 14:42:23.879 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - -
+2023-02-25 14:42:23.938 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-25 14:42:24.000 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-25 14:42:24.000 +05:30 [DBG] Request did not match any endpoints
+2023-02-25 14:42:24.833 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-25 14:42:24.897 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-25 14:42:24.908 +05:30 [DBG] Connection ID "18230571323271151689" disconnecting.
+2023-02-25 14:42:24.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - - - 200 - text/html;charset=utf-8 1037.1386ms
+2023-02-25 14:42:25.324 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - -
+2023-02-25 14:42:25.324 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - -
+2023-02-25 14:42:25.376 +05:30 [DBG] Connection ID "18374686498462105820" disconnecting.
+2023-02-25 14:42:25.378 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - - - 200 11978 application/javascript;+charset=utf-8 52.3633ms
+2023-02-25 14:42:25.482 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 157.8523ms
+2023-02-25 14:42:25.482 +05:30 [DBG] Connection ID "18302628908719145085" disconnecting.
+2023-02-25 14:42:25.551 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - -
+2023-02-25 14:42:25.552 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-25 14:42:25.552 +05:30 [DBG] Request did not match any endpoints
+2023-02-25 14:42:25.885 +05:30 [DBG] Connection ID "17798225733273780233" disconnecting.
+2023-02-25 14:42:25.885 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 333.3179ms
+2023-02-25 14:42:33.727 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/api/VillaAPI - -
+2023-02-25 14:42:33.733 +05:30 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-02-25 14:42:33.741 +05:30 [DBG] Endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-02-25 14:42:33.742 +05:30 [DBG] Request matched endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)'
+2023-02-25 14:42:33.749 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-25 14:42:33.758 +05:30 [INF] Executing endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)'
+2023-02-25 14:42:33.784 +05:30 [INF] Route matched with {action = "Get", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[KVNM.Models.VillaDto.VillaDto]] Get() on controller KVNM.Controllers.VillaAPIController (KVNM).
+2023-02-25 14:42:33.787 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-25 14:42:33.787 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-25 14:42:33.787 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-25 14:42:33.788 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-25 14:42:33.788 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-25 14:42:33.792 +05:30 [DBG] Executing controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-02-25 14:42:33.794 +05:30 [DBG] Executed controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-02-25 14:42:39.682 +05:30 [INF] REturn All Data
+2023-02-25 14:42:40.084 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-02-25 14:42:40.089 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-02-25 14:42:40.090 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-02-25 14:42:40.091 +05:30 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2023-02-25 14:42:40.096 +05:30 [INF] Executed action KVNM.Controllers.VillaAPIController.Get (KVNM) in 6303.2351ms
+2023-02-25 14:42:40.096 +05:30 [INF] Executed endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)'
+2023-02-25 14:42:40.099 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/api/VillaAPI - - - 406 - - 6372.6211ms
+2023-02-25 14:42:55.815 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/api/VillaAPI - -
+2023-02-25 14:42:55.815 +05:30 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-02-25 14:42:55.815 +05:30 [DBG] Endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-02-25 14:42:55.816 +05:30 [DBG] Request matched endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)'
+2023-02-25 14:42:55.816 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-25 14:42:55.816 +05:30 [INF] Executing endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)'
+2023-02-25 14:42:55.817 +05:30 [INF] Route matched with {action = "Get", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[KVNM.Models.VillaDto.VillaDto]] Get() on controller KVNM.Controllers.VillaAPIController (KVNM).
+2023-02-25 14:42:55.817 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-25 14:42:55.817 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-25 14:42:55.817 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-25 14:42:55.817 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-25 14:42:55.818 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-25 14:42:55.818 +05:30 [DBG] Executing controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-02-25 14:43:02.151 +05:30 [DBG] Executed controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-02-25 14:43:43.110 +05:30 [INF] Return All Data
+2023-02-25 14:43:45.472 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-02-25 14:43:45.473 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-02-25 14:43:45.473 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-25 14:43:45.474 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[KVNM.Models.VillaDto.VillaDto, KVNM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-25 14:44:00.710 +05:30 [INF] Executed action KVNM.Controllers.VillaAPIController.Get (KVNM) in 64892.1939ms
+2023-02-25 14:44:00.710 +05:30 [INF] Executed endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)'
+2023-02-25 14:44:00.710 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/api/VillaAPI - - - 200 287 application/json;+charset=utf-8 64895.6647ms

@@ -8,6 +8,12 @@ namespace KVNM.Models.VillaDto
         [Required]
         [StringLength(50)]
         public string Name { get; set; }
+        [Required]
+        
+        public decimal squertFee { get; set; }
+        [Required]
+        
+        public decimal price  { get; set; }
         public DateTime CreateDateTime { get; set; }
 
     }
