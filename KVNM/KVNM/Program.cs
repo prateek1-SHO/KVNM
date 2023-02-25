@@ -1,4 +1,7 @@
+using KVNM.Database;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo.File("Log/Villatext.txt", rollingInterval: RollingInterval.Day).CreateLogger();
   builder.Host.UseSerilog();
 builder.Services.AddControllers();
+builder.Services.AddDbContext<AppDbContext>(options =>
+       options.UseSqlServer(builder.Configuration.GetConnectionString("BloggingDatabase")));
 //if you want to return only xmal data formate the you can do that 
 builder.Services.AddControllers(option=> {
     option.ReturnHttpNotAcceptable = true; 

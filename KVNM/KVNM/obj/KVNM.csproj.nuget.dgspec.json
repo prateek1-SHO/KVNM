@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Prateek Work\\RajaProject\\KVNM\\KVNM\\KVNM.csproj": {}
+    "C:\\Users\\hp\\Desktop\\Pro_Ject\\KVNM\\KVNM\\KVNM.csproj": {}
   },
   "projects": {
-    "C:\\Prateek Work\\RajaProject\\KVNM\\KVNM\\KVNM.csproj": {
+    "C:\\Users\\hp\\Desktop\\Pro_Ject\\KVNM\\KVNM\\KVNM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Prateek Work\\RajaProject\\KVNM\\KVNM\\KVNM.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Pro_Ject\\KVNM\\KVNM\\KVNM.csproj",
         "projectName": "KVNM",
-        "projectPath": "C:\\Prateek Work\\RajaProject\\KVNM\\KVNM\\KVNM.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Pro_Ject\\KVNM\\KVNM\\KVNM.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Prateek Work\\RajaProject\\KVNM\\KVNM\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Pro_Ject\\KVNM\\KVNM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[7.0.3, )"
@@ -56,6 +60,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",

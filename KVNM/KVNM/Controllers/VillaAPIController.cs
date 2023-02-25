@@ -113,8 +113,7 @@ namespace KVNM.Controllers
               return  Ok(data);
             }
             data.Name = villaDto.Name;
-            data.price = villaDto.price;
-            data.squertFee = villaDto.squertFee;
+           
 
             return Ok(data);
         }
