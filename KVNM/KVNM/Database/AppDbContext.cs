@@ -9,7 +9,7 @@ namespace KVNM.Database
         public AppDbContext(DbContextOptions<AppDbContext>options):base(options)
         
         {
-
+          //all changess    
         }
         public DbSet<Villa> villaDtos { get; set; }
     }

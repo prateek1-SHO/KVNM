@@ -117,32 +117,32 @@ namespace KVNM.Controllers
 
             return Ok(data);
         }
-        //    [HttpPut]
-        //    [ProducesResponseType(StatusCodes.Status200OK)]
-        //    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        //    [ProducesResponseType(StatusCodes.Status404NotFound)]
-        //    public IActionResult  UpdatePAthh(int id, JsonPatchDocument<VillaDto> villaDto)
-        //    {
-        //        if (villaDto == null || id == 0)
-        //        {
-        //            return BadRequest();
+        [HttpPut]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult UpdatePAthh(int id, JsonPatchDocument<VillaDto> villaDto)
+        {
+            if (villaDto == null || id == 0)
+            {
+                return BadRequest();
 
-        //        }
+            }
 
 
-        //        var data = VillaStore.villaDtos.FirstOrDefault(x => x.Id == id);
-        //        if (data == null )
-        //        {
+            var data = VillaStore.villaDtos.FirstOrDefault(x => x.Id == id);
+            if (data == null)
+            {
 
-        //            return BadRequest();
-        //        }
-        //        villaDto.ApplyTo(data, ModelState);
-        //        if(!ModelState.IsValid)
-        //        {
-        //            return BadRequest(ModelState);
-        //        }
-        //        return NoContent();
-        //    }
-        //}  
+                return BadRequest();
+            }
+            villaDto.ApplyTo(data, ModelState);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            return NoContent();
+        }
     }
 }
+
