@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gsq25EuHylSqjqnrHInXPwZ2Z2UnESIDYRMZV8g1Py9GBjzE7jv4JYu1WIadvl//QMkF1V02MdSUfEHAxRKi4A==",
+  "dgSpecHash": "FWB12L6f4lVMOpuXHZN7t3GcLGv9FshDckCXW6mINTlCG9AmgQxLApiqAg+aDZW+6mbfEZtvWqTH3e3WiCtW+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\Pro_Ject\\KVNM\\KVNM\\KVNM.csproj",
+  "projectFilePath": "C:\\Prateek Work\\ProjectDEvepos\\KVNM\\KVNM\\KVNM\\KVNM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

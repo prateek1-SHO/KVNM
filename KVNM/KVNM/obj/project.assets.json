@@ -5059,11 +5059,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\Pro_Ject\\KVNM\\KVNM\\KVNM.csproj",
+      "projectUniqueName": "C:\\Prateek Work\\ProjectDEvepos\\KVNM\\KVNM\\KVNM\\KVNM.csproj",
       "projectName": "KVNM",
-      "projectPath": "C:\\Users\\hp\\Desktop\\Pro_Ject\\KVNM\\KVNM\\KVNM.csproj",
+      "projectPath": "C:\\Prateek Work\\ProjectDEvepos\\KVNM\\KVNM\\KVNM\\KVNM.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\Pro_Ject\\KVNM\\KVNM\\obj\\",
+      "outputPath": "C:\\Prateek Work\\ProjectDEvepos\\KVNM\\KVNM\\KVNM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

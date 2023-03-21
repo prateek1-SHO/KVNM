@@ -1,0 +1,76 @@
+2023-03-21 21:22:19.340 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-21 21:22:19.530 +05:30 [DBG] Hosting starting
+2023-03-21 21:22:19.720 +05:30 [DBG] Loaded hosting startup assembly KVNM
+2023-03-21 21:22:19.720 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-21 21:22:19.720 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-21 21:22:19.721 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-21 21:22:19.721 +05:30 [INF] Hosting environment: Development
+2023-03-21 21:22:19.721 +05:30 [INF] Content root path: C:\Prateek Work\ProjectDEvepos\KVNM\KVNM\KVNM
+2023-03-21 21:22:19.721 +05:30 [DBG] Hosting started
+2023-03-21 21:22:19.799 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - -
+2023-03-21 21:22:19.969 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-21 21:22:20.016 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-03-21 21:22:20.017 +05:30 [DBG] Request did not match any endpoints
+2023-03-21 21:22:21.327 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-21 21:22:21.394 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-21 21:22:21.403 +05:30 [DBG] Connection ID "18230571297501347845" disconnecting.
+2023-03-21 21:22:21.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - - - 200 - text/html;charset=utf-8 1608.8504ms
+2023-03-21 21:22:21.429 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - -
+2023-03-21 21:22:21.436 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/swagger-ui.css - -
+2023-03-21 21:22:21.437 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/swagger-ui-bundle.js - -
+2023-03-21 21:22:21.438 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-03-21 21:22:21.438 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-03-21 21:22:21.439 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - -
+2023-03-21 21:22:21.443 +05:30 [DBG] Request did not match any endpoints
+2023-03-21 21:22:21.443 +05:30 [DBG] Request did not match any endpoints
+2023-03-21 21:22:21.449 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/swagger-ui-standalone-preset.js - -
+2023-03-21 21:22:21.449 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-03-21 21:22:21.450 +05:30 [DBG] Request did not match any endpoints
+2023-03-21 21:22:21.481 +05:30 [DBG] Connection ID "18374686502757072900" disconnecting.
+2023-03-21 21:22:21.481 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - - - 200 11978 application/javascript;+charset=utf-8 52.1079ms
+2023-03-21 21:22:21.534 +05:30 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2023-03-21 21:22:21.534 +05:30 [INF] The file /swagger-ui.css was not modified
+2023-03-21 21:22:21.534 +05:30 [INF] The file /swagger-ui-bundle.js was not modified
+2023-03-21 21:22:21.539 +05:30 [DBG] Handled. Status code: 304 File: /swagger-ui-bundle.js
+2023-03-21 21:22:21.539 +05:30 [DBG] Handled. Status code: 304 File: /swagger-ui-standalone-preset.js
+2023-03-21 21:22:21.539 +05:30 [DBG] Handled. Status code: 304 File: /swagger-ui.css
+2023-03-21 21:22:21.541 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/swagger-ui.css - - - 304 - text/css 107.3122ms
+2023-03-21 21:22:21.541 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/swagger-ui-standalone-preset.js - - - 304 - text/javascript 91.3915ms
+2023-03-21 21:22:21.541 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/swagger-ui-bundle.js - - - 304 - text/javascript 103.9673ms
+2023-03-21 21:22:21.541 +05:30 [DBG] Connection ID "18230571314681217025" disconnecting.
+2023-03-21 21:22:21.650 +05:30 [DBG] Connection ID "18302628887244308485" disconnecting.
+2023-03-21 21:22:21.651 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 213.0743ms
+2023-03-21 21:22:21.862 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - -
+2023-03-21 21:22:21.862 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-03-21 21:22:21.862 +05:30 [DBG] Request did not match any endpoints
+2023-03-21 21:22:21.895 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/favicon-32x32.png - -
+2023-03-21 21:22:21.895 +05:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-03-21 21:22:21.895 +05:30 [DBG] Request did not match any endpoints
+2023-03-21 21:22:21.896 +05:30 [INF] The file /favicon-32x32.png was not modified
+2023-03-21 21:22:21.896 +05:30 [DBG] Handled. Status code: 304 File: /favicon-32x32.png
+2023-03-21 21:22:21.896 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/favicon-32x32.png - - - 304 - image/png 1.2262ms
+2023-03-21 21:22:22.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 209.4659ms
+2023-03-21 21:22:22.071 +05:30 [DBG] Connection ID "17870283340196610049" disconnecting.
+2023-03-21 21:22:32.047 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44359/api/VillaAPI - -
+2023-03-21 21:22:32.048 +05:30 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-03-21 21:22:32.050 +05:30 [DBG] Endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-03-21 21:22:32.051 +05:30 [DBG] Request matched endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)'
+2023-03-21 21:22:32.051 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-03-21 21:22:32.057 +05:30 [INF] Executing endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)'
+2023-03-21 21:22:32.073 +05:30 [INF] Route matched with {action = "Get", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[KVNM.Models.VillaDto.VillaDto]] Get() on controller KVNM.Controllers.VillaAPIController (KVNM).
+2023-03-21 21:22:32.076 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-21 21:22:32.076 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-21 21:22:32.076 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-21 21:22:32.076 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-21 21:22:32.076 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-21 21:22:32.078 +05:30 [DBG] Executing controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-03-21 21:22:32.079 +05:30 [DBG] Executed controller factory for controller KVNM.Controllers.VillaAPIController (KVNM)
+2023-03-21 21:22:32.081 +05:30 [INF] Return All Data
+2023-03-21 21:22:32.083 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-03-21 21:22:32.086 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-03-21 21:22:32.088 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-03-21 21:22:32.089 +05:30 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2023-03-21 21:22:32.092 +05:30 [INF] Executed action KVNM.Controllers.VillaAPIController.Get (KVNM) in 12.605ms
+2023-03-21 21:22:32.092 +05:30 [INF] Executed endpoint 'KVNM.Controllers.VillaAPIController.Get (KVNM)'
+2023-03-21 21:22:32.094 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44359/api/VillaAPI - - - 406 - - 47.3554ms
+2023-03-21 21:22:32.094 +05:30 [DBG] Connection ID "18230571293206380549" disconnecting.
